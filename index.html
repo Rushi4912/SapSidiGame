@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sap Sidi Game</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Raleway&display=swap"
+      rel="stylesheet"
+    />    
+    <link rel="stylesheet" href="./style.css" />
+    <script async src="./main.js"></script>
+    <!-- <script src="./game.js"></script> -->
+  </head>
+
+  <body>
+    <div class="background"></div>
+    <header>
+      <img
+        src="./assets/snake5-removebg-preview.png"
+        alt="Snake heading decoration"
+      />
+      <h1 id="heading-main">Sap Sidi Game!</h1>
+      <img src="./assets/ladder40-42.png" alt="" />
+    </header>
+
+    <main>
+      <!-- Select player 2 to 4  -->
+      <div id="player-number-container" class="player-card">
+        <label for="player-number">
+          Choose number of players (maximum is four):
+        </label>
+        <input
+          type="number"
+          name="player-number"
+          id="player-number"
+          min="2"
+          max="4"
+        />
+        <button
+          id="player-customization-btn"
+          class="modal-button"
+          onclick="playerCustomization()"
+        >
+          Next
+        </button>
+<!-- credit section start  -->
+<div class="contact">
+  <h2>Made With 💓 by</h2>
+  <a href="https://twitter.com/Sanskari_Rushi">@Sanskari_Rushi <img src="./assets/twitter2.avif" alt=""></a>
+  <a href="https://www.linkedin.com/in/nikhil-ambure-8a41a7248/">Nikhil Ambure <img src="./assets/linkedin2.png" alt=""></a>
+  <a href="https://www.linkedin.com/in/maaj-shaikh-a69025221/">Maaj Shaikh <img src="./assets/linkedin2.png" alt=""></a>
+  <a href="https://www.linkedin.com/in/shubham-gade-patil-a79905256/">Shubham Gade <img src="./assets/linkedin2.png" alt=""></a>
+</div>
+
+      </div>
+    </main>
+    <footer>
+      <img src="./assets/dice-group.png" alt="Dice group" />
+
+
+    </footer>
+
+
+  </body>
+</html>
